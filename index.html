@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elites Empire | BEAT The Limits</title>
+  <meta name="description" content="A clean, modern, responsive marketing landing page for Elites Empire." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+  <div class="site-bg">
+    <header class="header" id="header">
+      <a href="#home" class="brand" aria-label="Elites Empire Home">
+        <img src="assets/elites-logo.jpg" alt="Elites Empire logo" />
+        <span>Elites Empire</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#opportunities">Opportunities</a>
+        <a href="#stories">Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="header-cta">Join the Movement</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span>BEAT</span> — The Elites Way</p>
+          <h1>
+            Build Connections.<br />
+            Earn &amp; Grow.<br />
+            <span>Aspire to Rise.</span><br />
+            <strong>Transform Lives.</strong>
+          </h1>
+          <p class="hero-text">
+            Elites Empire is a global movement of visionaries, leaders, and changemakers building a legacy of impact, freedom, and abundance — together.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Join the Movement <span>→</span></a>
+            <a href="#about" class="btn btn-ghost">Discover More <span>▶</span></a>
+          </div>
+
+          <p class="signature">Your Future. <span>Your Empire.</span></p>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="gold-orbit orbit-one"></div>
+          <div class="gold-orbit orbit-two"></div>
+          <img class="hero-banner" src="assets/beat-banner.jpg" alt="BEAT campaign banner" />
+          <div class="logo-medallion">
+            <img src="assets/elites-logo.jpg" alt="Elites Empire emblem" />
+          </div>
+        </div>
+      </section>
+
+      <section class="value-grid section" id="about" aria-label="Elites Empire values">
+        <article class="value-card reveal">
+          <div class="icon gold">👥</div>
+          <h2>Build<br />Connections</h2>
+          <p>Grow with a network that supports, uplifts, and opens new opportunities.</p>
+        </article>
+
+        <article class="value-card reveal delay-1">
+          <div class="icon green">📈</div>
+          <h2>Earn &amp;<br />Grow</h2>
+          <p>Unlock your potential through purpose-driven growth and better habits.</p>
+        </article>
+
+        <article class="value-card reveal delay-2">
+          <div class="icon blue">⛰️</div>
+          <h2>Aspire<br />To Rise</h2>
+          <p>Set higher goals, push limits, and keep moving toward your next level.</p>
+        </article>
+
+        <article class="value-card reveal delay-3">
+          <div class="icon purple">💜</div>
+          <h2>Transform<br />Lives</h2>
+          <p>Create meaningful impact and build a legacy that inspires others.</p>
+        </article>
+      </section>
+
+      <section class="mission section" id="mission">
+        <div class="mission-copy reveal">
+          <p class="eyebrow light">One Mind. One Vision. <span>One Empire.</span></p>
+          <h2>Build your legacy with a movement that rises together.</h2>
+          <p>
+            We are more than a community. We are a movement of empowered individuals building freedom, impact, and generational growth together.
+          </p>
+          <a href="#contact" class="btn btn-light">Be Part of the Empire <span>→</span></a>
+        </div>
+
+        <div class="stats reveal delay-1" aria-label="Community statistics">
+          <div class="stat">
+            <span class="stat-icon">👥</span>
+            <strong data-count="50000">0</strong>
+            <p>Elites Worldwide</p>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">🌐</span>
+            <strong data-count="120">0</strong>
+            <p>Countries</p>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">🏆</span>
+            <strong data-count="2500000">0</strong>
+            <p>Lives Impacted</p>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">🚀</span>
+            <strong data-count="100">0</strong>
+            <p>Commitment</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="opportunities section" id="opportunities">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span>Opportunities</span></p>
+          <h2>Marketing-ready sections designed to convert.</h2>
+          <p>Use this landing page for campaigns, community recruitment, events, team building, or movement promotion.</p>
+        </div>
+
+        <div class="opportunity-layout">
+          <div class="opportunity-card reveal">
+            <span>01</span>
+            <h3>Premium visual identity</h3>
+            <p>Clean cards, gold accents, airy spacing, and strong hierarchy for a professional brand feel.</p>
+          </div>
+          <div class="opportunity-card reveal delay-1">
+            <span>02</span>
+            <h3>Responsive by design</h3>
+            <p>The layout adapts from wide desktop screens to tablets and mobile phones smoothly.</p>
+          </div>
+          <div class="opportunity-card reveal delay-2">
+            <span>03</span>
+            <h3>Animated interactions</h3>
+            <p>Subtle scroll reveal, counter animation, hover lift effects, and animated background particles.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section" id="stories">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span>Success Stories</span></p>
+          <h2>Real people. Stronger mindset. Bigger goals.</h2>
+        </div>
+
+        <div class="testimonial reveal delay-1">
+          <div class="profile-ring">
+            <img src="assets/profile.jpg" alt="Featured success story member" />
+          </div>
+          <div>
+            <span class="quote-mark">“</span>
+            <p>
+              Elites Empire helped me build confidence, connect with purpose-driven people, and focus on creating a better future.
+            </p>
+            <h3>Featured Member</h3>
+            <small>Elites Empire Community</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section" id="contact">
+        <div class="cta-card reveal">
+          <div>
+            <p class="eyebrow"><span>Ready to Build?</span></p>
+            <h2>Start your journey today.</h2>
+            <p>Connect. Grow. Inspire. Transform. Together, we build. Together, we rise.</p>
+          </div>
+          <a href="mailto:hello@elitesempire.com" class="btn btn-primary">Contact Now <span>→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Elites Empire. All rights reserved.</p>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
